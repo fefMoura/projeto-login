@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* 
+    Paleta de cores
+    Azul escuro: #010440
+    Azul bem escuro: #010326
+
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    background-image: linear-gradient(to bottom,#010326,#010440);
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    position: relative;
+    height: 100vh;
+}
+section{
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 370px;
+    background-color: rgba(255, 255, 255, 0.24);  
+}
+section h1{
+    font-size: 1em;
+    padding-top: 5px;
+}
+section p{
+    font-size:  0.8em ;
+    padding: 10px;
+}
+div#imagem{
+    border-radius: 15px 15px 0px 0px;
+    height: 110px;
+    background-image: url("../imagens/fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div#formulario{
+    text-align: center;
+}
+.caixas{
+    color: black;
+    border-style: none;
+    border-radius:5px;
+   
+    margin-bottom: 10px;
+    height: 25px;
+    width: 95%
+}
+.buttons{
+ font-weight: bold;
+ color: black;
+ border-style: none;
+ border-radius:5px;  
+  height: 25px;
+  width: 95%;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.buttons:hover{
+    cursor: pointer;
+}
+#entrar{
+    background-color: #010440;
+    color: white;
+}
+#entrar:hover{
+background-color: #00075f;
+}
+#esqueciasenha{
+    background-color: white;
+    color:#010440;
+}
+#esqueciasenha:hover{
+    background-color: rgb(223, 223, 223);
+}
