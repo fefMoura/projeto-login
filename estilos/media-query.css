@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/*Todas as demais mídias*/
+
+/*Typical Device Breakpoints
+---------------------------------
+Pequenas Telas: até 480px
+Celular: de 481px até 768px
+Tablet: de 769px até 1279px
+Desktop: de 769px até 1279px
+Grandes Telas: acima de 1280px
+---------------------------------
+*/
+@media screen and (min-width:520px) {
+
+
+
+  section{
+  
+    width: 80vw;
+    height: 380px;
+    
+}
+
+div#imagem{
+    border-radius: 15px 0px 0px 15px;
+    background-image: url("../imagens/fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: block;
+    width: 45%;
+    height: 380px;
+    
+}
+
+div#formulario{
+   position: absolute;
+   left: 45%;
+   margin: 10px;
+}
+div#imagem{
+    right: 50%;
+    position: absolute;
+    display: inline-block;
+    left: 0;
+}
+div{
+    position: relative;
+}
+
+.caixas{
+    height: 35px;
+    width: 100%;
+     font-size:  1.2em ;
+}
+.buttons{
+ 
+  height: 35px;
+ font-size:  1.2em ;
+}
+
+div#campo {
+    
+    height: 38px;
+   
+         
+}
+section h1{
+    font-size: 2.2em;
+  
+}
+section p{
+    font-size:  1.2em ;
+    
+}
+
+#icone{
+    margin-left: 10px;
+    font-size:  1.5em ;
+    
+}
+}
