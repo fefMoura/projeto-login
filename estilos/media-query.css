@@ -10,6 +10,9 @@ Desktop: de 769px até 1279px
 Grandes Telas: acima de 1280px
 ---------------------------------
 */
+
+/*Poderia ter alinhado de uma forma mais simples, bastava transformar
+a div imagem e formulario em display:block, depois float:left float:right e configurar width e height*/
 @media screen and (min-width:615px) {
   section{
   
