@@ -27,13 +27,14 @@ section{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     width: 200px;
     height: 380px;
     background-color: rgba(255, 255, 255, 0.24);  
     box-shadow:0px 0px 10px rgba(210, 245, 255, 0.171);
-transition: width 0.3s, height 0.3s;
-transition-timing-function: ease;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+
 }
 section h1{
     font-size: 1em;
