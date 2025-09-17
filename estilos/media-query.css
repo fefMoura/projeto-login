@@ -13,7 +13,7 @@ Grandes Telas: acima de 1280px
 
 /*Poderia ter alinhado de uma forma mais simples, bastava transformar
 a div imagem e formulario em display:block, depois float:left float:right e configurar width e height*/
-@media screen and (min-width:615px) {
+@media screen and (min-width:615px) and (max-width:1031px) {
   section{
   
     width: 80vw;
@@ -46,6 +46,7 @@ div#imagem{
 }
 div{
     position: relative;
+    
 }
 
 .caixas{
